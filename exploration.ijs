@@ -59,7 +59,7 @@ NB. produces pell numbers: 1,2,5,12,29,70,169,...
 NB. A000129
 print_digits (12 groups_of 4) ": 1 xdiv 998998
 
-NB. recurrence relation c_n = 3 * c_n-1 + c_n-2
-NB. produces A048739: 1,1,2,3,5,8,13,21,...
+NB. recurrence relation c_n = 3 * c_n-1 - c_n-2 - c_n-3
+NB. produces A048739: 1,3,8,20,49,119,288,696,...
 NB. A048739
 print_digits (13 groups_of 4) ": 1 xdiv 999700010001
